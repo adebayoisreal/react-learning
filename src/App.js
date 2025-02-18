@@ -1,11 +1,12 @@
 
 import Navbar from './Navbar';
 import Home from './Home';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom';
+import {Switch,BrowserRouter as Router,Route} from "react-router-dom";
 import Create from './create';
 import BlogDetail from './BlogDetails';
 function App() {
   return (
+   
     <Router>
     <div className="App">
       <Navbar/>
